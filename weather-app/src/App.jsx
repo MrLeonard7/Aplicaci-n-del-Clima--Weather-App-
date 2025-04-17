@@ -1,4 +1,3 @@
-import './App.css'
 import SearchBar from './components/SearchBar'
 import WeatherDisplay from './components/WeatherDisplay'
 
