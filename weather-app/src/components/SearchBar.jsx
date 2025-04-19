@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from "react";
 
 
-function SearchBar() {
+
+function SearchBar({onSearch}) {
     const [location, setLocation] = useState('');
 
     function handleChange(e) {
@@ -10,8 +11,8 @@ function SearchBar() {
     }
     function handleSearchSubmit(e) {
         e.preventDefault()
-        console.log('Buscando: ', location)
-    }
+        onSearch(location)
+    } 
 
     return (
         <>
