@@ -16,7 +16,7 @@ function SearchBar({onSearch}) {
 
     return (
         <>
-            <nav class="navbar bg-body-tertiary">
+            <nav class="navbar bg-body-tertiary" >
                 <div class="container-fluid">
                     <form class="d-flex" 
                     action={SearchBar}
